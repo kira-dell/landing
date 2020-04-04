@@ -1,0 +1,101 @@
+/* Write some CSS below */
+body {
+  font-family: Roboto;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  color: #404042;
+  font-family: Roboto;
+}
+
+p {
+  color: #404042;
+  opacity: .7;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+.container h3 {
+  margin-bottom: 0;
+  margin-top: 50px;
+  font-size: 24px;
+  color: #E56399;
+  text-align: center;
+}
+
+.banner {
+  background-color: #D0E2ED;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 70px;
+  margin: 0;
+}
+
+.banner h2 {
+  color: white;
+  font-size: 40px;
+}
+
+.btn-pink {
+  background-color: #E56399;
+  color: white;
+  padding: 16px 48px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.btn-pink:hover {
+  background-color: #E56399;
+  color: white;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.card-white {
+  background: #5398BE;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  width: 200px;
+  text-align: center;
+  padding: 24px;
+  margin: 8px;
+}
+
+.card-white img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.card-white h4 {
+  color: white;
+}
+
+.footer {
+  background: #E56399;
+  text-align: center;
+  padding: 24px 0;
+}
+
+.footer h5 {
+  color: white;
+  font-size: 24px;
+}
